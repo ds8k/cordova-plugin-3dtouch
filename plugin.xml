@@ -46,4 +46,14 @@
 
   </platform>
 
+  <platform name="android">
+    <source-file src="src/android/ThreeDeeTouch.java" target-dir="src/com/marketamerica/plugins/threedeetouch" />
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="ThreeDeeTouch">
+        <param name="android-package" value="com.marketamerica.plugins.threedeetouch.ThreeDeeTouch" />
+        <param name="onload" value="true"/>
+      </feature>
+    </config-file>
+  </platform>
 </plugin>
