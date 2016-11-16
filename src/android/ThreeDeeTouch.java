@@ -1,4 +1,4 @@
-package com.marketamerica.plugins.threedeetouch;
+package nl.xservices.plugins.threedeetouch;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
